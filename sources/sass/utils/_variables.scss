@@ -1,0 +1,9 @@
+// W tym pliku nie wolno używać elmentów definiowanych w wielu liniach.
+// W tym m.in. map scss i wieloninijkowych komentarzy
+// Takie są ograniczenia scss-to-js
+
+$color-white: #fff;
+$color-black: #000;
+$color-red: #f00;
+
+$z-index-noscript: 1000;

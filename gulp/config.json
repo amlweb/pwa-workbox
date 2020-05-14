@@ -1,0 +1,60 @@
+{
+  "paths": {
+    "root": "../",
+    "sources": "sources/",
+    "temp": "_temp/",
+    "results": "public/"
+  },
+  "dirs": {
+    "css": "css/",
+    "sass": "sass/",
+    "js": "js/",
+    "assets": "assets/",
+    "img": "img/",
+    "html": "html/",
+    "twig": "templates/",
+    "exclude": "vendors/"
+  },
+  "files": {
+    "scriptsSource": "main.js",
+    "scriptsResults": "scripts.js",
+    "stylesSource": "main.scss",
+    "stylesResults": "styles.css",
+    "twigGlobals": "_globals.json"
+  },
+  "settings": {
+    "twig": true,
+    "constFilenames": false,
+    "injectPathsRelative": true,
+    "livereload": {
+      "enabled" : false,
+      "livereload": true,
+      "directoryListing": true,
+      "open": false,
+      "host": "127.0.0.1",
+      "port": 1337
+    }
+  },
+  "webpack": {
+    "browsers": [
+      "android >= 79",
+      "chrome >= 79",
+      "edge >= 79",
+      "firefox >= 73",
+      "ie >= 11",
+      "ios >= 13.2",
+      "opera >= 65",
+      "safari >= 11",
+      "samsung >= 10.1"
+    ],
+    "chunksName": "[name].[chunkhash].chunk.js",
+    "scssVariables": "utils/_variables.scss",
+    "publicPath": "/assets/",
+    "windowJquery": false,
+    "moduleJquery": false,
+    "showPolyfills": false,
+    "showAssets": false,
+    "gzipAssets": false,
+    "moduleReport": false
+  }
+}

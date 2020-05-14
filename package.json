@@ -1,0 +1,24 @@
+{
+  "name": "pwa-workbox",
+  "version": "1.0.0",
+  "description": "Trying PWA using Workbox library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amlweb/pwa-workbox.git"
+  },
+  "keywords": [
+    "pwa",
+    "workbox"
+  ],
+  "author": "Anna Lasocka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amlweb/pwa-workbox/issues"
+  },
+  "homepage": "https://github.com/amlweb/pwa-workbox#readme"
+}

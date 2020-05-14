@@ -1,0 +1,35 @@
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.clearfix::before,
+.clearfix::after {
+    content: ' ';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+noscript {
+    .noscript {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 30px;
+        background: $color-red;
+        z-index: $z-index-noscript;
+
+        p {
+            color: $color-white;
+            font-size: 14px;
+        }
+    }
+}
